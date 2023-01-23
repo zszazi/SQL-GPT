@@ -11,7 +11,7 @@ app.include_router(api_router)
 
 @app.on_event("startup")
 def on_start_api():
-    logger.info('\x1b[6;30;42m' + 'SQL GPT API' + '\x1b[0m' + ' Reach out to zszazi to know more')
+    logger.info('\x1b[6;30;42m' + 'SQL GPT APP' + '\x1b[0m' + ' Reach out to zszazi to know more')
     Settings().load_settings()
     logger.info("<---- Config Start --->")
     logger.info(f"DATABASE - {os.getenv('POSTGRES_DB')}")
