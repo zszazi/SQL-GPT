@@ -1,7 +1,3 @@
-#refresh GPT_TOKEN 
-#return SQL query as text
-#reutrn restulst after runnign sql query
-
 from fastapi import APIRouter
 from src.utils.gpt import SQLGPT
 from loguru import logger 
